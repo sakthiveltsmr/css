@@ -1,0 +1,58 @@
+h1 {
+  font: 35px "Roboto", sans-serif;
+  /* font-family:'Roboto', sans-serif;
+	font-size: 35px; */
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.intro {
+  /* CLASS */
+  background-image: url(../img/coding-job.png);
+  background-color: green;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.intro h1 {
+  color: #fff;
+  border-top: dashed;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: dashed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro > p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.intro button {
+  background-color: #3be25f;
+  color: #fff;
+  border-width: 5px;
+  border-top: dotted;
+  border-bottom: dashed;
+  border-left: solid;
+  border-right: solid;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.intro img {
+  margin-top: 120px;
+}
