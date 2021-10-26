@@ -1,0 +1,13 @@
+.text_formatting h1 {
+  font-weight: bold;
+  text-shadow: 3px 2px #000;
+}
+
+.text_formatting {
+  padding: 30px;
+  background-color: #2196f3;
+
+  /* Text Formatting */
+  color: #fff;
+  text-align: justify;
+}
