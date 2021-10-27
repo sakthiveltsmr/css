@@ -1,0 +1,68 @@
+body h1 {
+  text-align: center;
+  color: black;
+  text-shadow: 3px 2px rgb(250, 10, 10);
+}
+div {
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+.sakthi {
+  background-color: rgb(5, 215, 230);
+  margin: 3px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 20px 0;
+  height: 100px;
+  padding: top 15%;
+  border-radius: 10px;
+}
+.mani {
+  background-color: chocolate;
+  margin: 3px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  float: left;
+  width: 32%;
+  height: 200px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.Thirumala {
+  background-color: rgb(247, 8, 207);
+  margin: 3px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  float: left;
+  width: 33%;
+  height: 200px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.Sadheesh {
+  background-color: rgb(8, 247, 68);
+  margin: 3px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  float: left;
+  width: 33%;
+  height: 200px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.Sanjith {
+  background-color: rgb(210, 30, 30);
+  margin: 3px;
+  border-style: double;
+  border-color: black;
+  border-width: 5px;
+  padding: 20px 0;
+  clear: both;
+  height: 100px;
+  border-radius: 10px;
+}
