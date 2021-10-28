@@ -1,0 +1,32 @@
+div {
+  background-color: rgba(0, 0, 0, 0.363);
+  padding: 20px;
+  margin: 30px;
+}
+h1 {
+  color: red;
+  text-decoration: underline;
+}
+table {
+  margin: 1px;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid rgb(14, 0, 0);
+  color: white;
+}
+th {
+  padding: 20px;
+  font-size: 20px;
+  color: blue;
+  background-color: chartreuse;
+}
+td {
+  padding: 20px;
+}
+tr {
+  background-color: darkorange;
+}
+tr:hover {
+  background-color: cyan;
+}
