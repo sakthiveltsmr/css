@@ -1,0 +1,21 @@
+body {
+  background-color: hotpink;
+}
+.psuedo > h1 {
+  text-shadow: 2px 3px rgb(0, 183, 255);
+  text-decoration: underline;
+}
+.psuedo > p {
+  color: greenyellow;
+}
+.opacity {
+  width: 550px;
+  background-color: #000;
+}
+.opacity > img {
+  opacity: 0.5;
+  width: 550px;
+}
+.opacity > img:hover {
+  opacity: 1;
+}
