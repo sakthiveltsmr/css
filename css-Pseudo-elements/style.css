@@ -1,0 +1,27 @@
+div {
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+}
+.psuedo-elements > p::first-letter {
+  color: red;
+}
+.psuedo-elements > p::first-line {
+  color: rgb(12, 241, 111);
+}
+.psuedo-elements > h1::after {
+  content: ";)";
+}
+.psuedo-elements > h1::before {
+  content: "Section:";
+}
+::selection {
+  color: turquoise;
+  background-color: yellow;
+}
+::-moz-selection {
+  color: turquoise;
+  background-color: yellow;
+}
+.psuedo-elements > ul::first-line {
+  color: orange;
+}
