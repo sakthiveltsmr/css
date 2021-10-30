@@ -1,0 +1,35 @@
+.combinators {
+  float: left;
+}
+
+body {
+  background-color: rgb(60, 109, 10);
+}
+.clearfix + hr {
+  clear: both;
+  color: yellow;
+}
+
+/* Decendant Selector */
+div p {
+  color: red;
+}
+
+/* Child Selector */
+div > p {
+  color: rgb(240, 9, 209);
+}
+
+/* child Selector */
+#selector > h2 {
+  color: rgb(76, 0, 255);
+}
+/* Adjacent Sibling Selector */
+#selector + h2 {
+  color: rgb(255, 51, 0);
+}
+
+/* General Sibling Selector */
+#selector ~ h2 {
+  color: yellow;
+}
