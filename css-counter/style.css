@@ -1,0 +1,11 @@
+body {
+  counter-reset: subject;
+}
+.counters {
+  padding: 20px;
+  background-color: aqua;
+}
+h2::before {
+  counter-increment: subject;
+  content: "subject #" counter(subject) ": ";
+}
